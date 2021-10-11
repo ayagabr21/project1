@@ -41,24 +41,46 @@ margin-left: 1em;
     border-bottom: 1px;
 }
 /* showcase section */
-
-.covid{
-    margin-top: 5% ;
-    font-size: 80px    ;
-    color:#2b5d89  ;
+.header{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png ) !important;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-#showtxt{
-    color: #ff0381;
-    font-family: Oswald,sans-serif;
-    font-size: 30px;
+
+
+.showtxt{
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
     
 }
-.fa-viruses{
-    font-size: 30px !important;
-    position: absolute;
-    top: 10px;
-    opacity: 0.7;
+
+
+.flex-showtxt {
+    display       : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 70px;
+    flex-wrap: wrap;
 }
+.corona-header{
+    color: #465675;
+    font-size: 80px;
+    margin: 0%;
+    
+}
+#covid{
+    color: #ff0381;
+}
+#virus{
+    color: #465675;
+}
+
+
+
 .showinfo{
     color:#465675 !important;
     /* margin: 20px; */
@@ -121,12 +143,64 @@ margin-left: 1em;
     color: #465675 ;
 
 }
-.q-btn{
 
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
+
+/* section4 */
+.small-images{
+    position: relative;
+    left: 45%;
+    top: 7%;
+    z-index: 1;
+    
+}
+.fa-exclamation-triangle{
+    font-size: 50px;
+    color: #2f8ce2;
+}
+/* section5 */
+.prevent-title{
+    color: #465675;
+}
+.content{
+    color: #505b65;
+}
+.fa-check-circle{
+    color: rgb(84, 184, 84);
+}
+.steps{
+    color: #465675;
+}
+.wash{
+    /* margin-bottom: 5%; */
+    color: #465675;
 }
 
+/* section 6 teratment */
+.be-carefull{
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    /* margin-bottom: 5% !important; */
+}
+.dark-overlay{
+    background-color: #1055bbfb;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+
+}
+/* section7 protect */
+.fa-times-circle{
+    position: relative;
+    left: 10%;
+    bottom: 35%;
+    font-size: large;
+    color: rgb(228, 18, 18);
+    z-index: 1 !important;
+}
 
 
 
