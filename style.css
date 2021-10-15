@@ -196,10 +196,28 @@ margin-left: 1em;
 .fa-times-circle{
     position: relative;
     left: 10%;
-    bottom: 35%;
+    bottom: 85%;
     font-size: large;
     color: rgb(228, 18, 18);
     z-index: 1 !important;
+}
+.Check-mark.fa-check-circle{
+    position: absolute;
+    left: 80%;
+    bottom: 15%;
+    font-size: large;
+    color: green;
+    z-index: 1 !important;
+
+}
+/* section7 faq */
+#flush-collapseOne ,
+#flush-collapseTwo ,
+#flush-collapseThree{
+    position: relative;
+    left: 43rem;
+    border: 1px solid #60aaeb !important; 
+    border-radius: 3px;
 }
 
 
