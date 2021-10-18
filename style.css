@@ -208,17 +208,46 @@ margin-left: 1em;
     font-size: large;
     color: green;
     z-index: 1 !important;
-
+    
 }
 /* section7 faq */
-#flush-collapseOne ,
-#flush-collapseTwo ,
-#flush-collapseThree{
-    position: relative;
-    left: 43rem;
-    border: 1px solid #60aaeb !important; 
-    border-radius: 3px;
+/* btns */
+.first-btn{
+    border: 1px solid #9ca1a7;
+    border-radius: 3px !important;
+    padding: 4% ;
+    color: #63676b;
+    width: 350px;
+    
 }
+.first-btn:hover{
+  border: 2px solid #519adf !important;
+  color: #2f8ce2    ;
+  
+}
+.fa-caret-right{
+}
+
+/* accordions */
+#faq h6{
+    padding: 3%;
+    cursor: pointer;
+}
+.accordian{
+    padding: 3%;
+    display: none;
+     
+
+}
+.fa-minus,
+.fa-plus{
+    padding-left: 95%;
+}
+#accordion1{
+    border: 1px solid #9ca1a7 ;
+    border-radius: 5px
+}
+
 
 
 
