@@ -110,7 +110,7 @@ margin-left: 1em;
     
      line-height: 1.5em;
  }
-
+/* 
 .table-light{
     border:#e6e7e9 1px solid  ;
     border-radius:50px ;
@@ -132,6 +132,19 @@ margin-left: 1em;
     padding: 20px 10px;
     border-bottom:1px solid #e6e7e9;
     
+    
+}
+*/
+.table-title{
+    color: #465675;
+
+}
+.list-group-item a{
+    text-decoration: none !important;
+}
+.fa-long-arrow-alt-right{
+    position: absolute;
+    left: 280px;
 }
 /* section3 */
 
@@ -225,20 +238,27 @@ margin-left: 1em;
   color: #2f8ce2    ;
   
 }
-.fa-caret-right{
-}
+
 
 /* accordions */
 #faq h6{
     padding: 3%;
     cursor: pointer;
 }
-.accordian{
-    padding: 3%;
-    display: none;
-     
 
-}
+.accordion-body-child {
+    position: absolute;
+    float: right;
+    right: 5%;
+    color: #465675
+ 
+
+    } 
+   .accordion-button{
+       color: #465675;
+   }
+
+/* }
 .fa-minus,
 .fa-plus{
     padding-left: 95%;
@@ -246,8 +266,91 @@ margin-left: 1em;
 #accordion1{
     border: 1px solid #9ca1a7 ;
     border-radius: 5px
+} */
+
+/* section 8 updates */
+
+.update-title{
+    cursor: pointer;
+    /* -webkit-transition: color 1s !important; */
+    transition: color  !important;
+}
+
+.update-title:hover{
+    color: #2f8ce2 !important;
 }
 
 
+/*footer  */
+.footer{
+    
+    background-image: url(http://frontend.projects-amit-learning.com/images/shape-a.png);
+    background-repeat: repeat;
+    background-size: cover;
+    z-index: 1;
+}
 
+.footer-content{
+    color: #b2bfe0;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    cursor: pointer;
+    
+
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover{
+    color: #519adf;
+}
+.footer-text a{
+    text-decoration: none;
+    color:#b2bfe0 ;
+    cursor: pointer;
+
+}
+
+ .links :hover{
+    color: #4382bd !important;
+}
+.hr-line{
+    width: 80%;
+    color: #b2bfe0 ;
+}
+.copy-right{
+    color: #b2bfe0 ;
+
+}
+.privacy a{
+    text-decoration: none;
+    color:#b2bfe0 ;
+    cursor: pointer;
+
+}
+.privacy a:hover{
+    color: #519adf;
+}
+
+/* scroll to top */
+
+
+.top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0d7de6;
+    color: #ebecee;
+    font-size: 30px;
+    padding: 4px 10px;
+    border-radius: 50%;
+    scroll-behavior: smooth;
+}
+.top:hover{
+    color: #e9ecee;
+
+}
 
