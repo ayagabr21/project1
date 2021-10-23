@@ -245,18 +245,29 @@ margin-left: 1em;
     padding: 3%;
     cursor: pointer;
 }
-
-.accordion-body-child {
-    position: absolute;
-    float: right;
-    right: 5%;
-    color: #465675
+ a{
+     text-decoration: none ;
+ }
  
-
-    } 
    .accordion-button{
        color: #465675;
    }
+
+   /* #accordionExample1,
+   #accordionExample2,
+   #accordionExample3,
+   #accordionExample4,
+   #accordionExample5,
+   #accordionExample6{
+       position: absolute;
+       float:right;
+       right:5%;
+       margin: top 4.5%;
+
+   } */
+       
+   
+   
 
 /* }
 .fa-minus,
